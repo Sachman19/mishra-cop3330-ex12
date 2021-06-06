@@ -23,7 +23,7 @@ public class Main {
         double total = Math.round(100 * principal * (1 + interest * years)) / 100.0;
 
         System.out.println();
-        System.out.printf("After %d years at %.1f percent interest, the investment will be worth %.2f", years, interest * 100, total);
+        System.out.printf("After %d years at %.1f%% interest, the investment will be worth %.2f", years, interest * 100, total);
 
     }
 }
